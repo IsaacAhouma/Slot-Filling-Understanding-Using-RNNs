@@ -29,7 +29,7 @@ This is way more interesting to understand by looking at the images available fo
 
 In this project, performance was measured by the following metrics: accuracy (for the intent classification task) as well as precision, recall and f1-score (for the slot filling task).
 
-The best performing model I built has an accuracy of 98.4%, a precision of 95.47, a recall value of 95.41, and an f1 score of 95.44.
+The best performing model I built has an accuracy of 98.4%, a precision of 95.47, a recall value of 95.41, and an f1 score of 95.44. It uses embedding vectors of size 300, has 1000 hidden units and is trained for n_epochs using a train data of length 6000 and test data of length 1500. It doesn't use max pooling.
 
 I built a Model class on top of the Keras Model class that allows me to easily retain information such as its parameters and performance on each metric. This helps to compare models, save and load them and to use them to make predictions on new queries without the need to retrain them.
 For example, let's say we have a model named best_model. You can get a summary of the model by calling best_model.summary.
