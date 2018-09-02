@@ -74,7 +74,7 @@ class Model:
         # rmsprop is recommended for RNNs https://stats.stackexchange.com/questions/315743/rmsprop-and-adam-vs-sgd
         model.compile(optimizer='rmsprop',
                       loss={'intent_output': 'categorical_crossentropy', 'slot_output': 'categorical_crossentropy'})
-        plot_model(model, 'models/'+ self.name + '.png')
+        plot_model(model, 'models/' + self.name + '.png')
 
         self.model = model
 

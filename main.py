@@ -51,6 +51,7 @@ def main(n_epochs=1, n_train=8000, n_test=1500, embedding_dimension=300, dropout
     return model
 
 
+# some of the models that were built
 dummy_model = main(n_epochs=1, n_train=100, n_test=20, model_name='dummy_model')
 simple_gru = main(n_epochs=20, n_train=1000, n_test=200, model_name='simple_gru')
 simple_gru50 = main(n_epochs=20, n_train=1000, n_test=200, model_name='simple_gru50', rnn_units=500)
@@ -61,17 +62,19 @@ lstm_nopooling = main(n_epochs=10, n_train=4000, n_test=1000, rnn_type='LSTM', m
 gru_nopooling = main(n_epochs=10, n_train=4000, n_test=1000, model_name='gru_nopooling', rnn_units=500,
                      maxPooling=False)
 lstm_nopooling300 = main(n_epochs=10, n_train=4000, n_test=1000, rnn_type='LSTM', model_name='lstm_nopooling300',
-                      maxPooling=False)
+                         maxPooling=False)
 gru_nopooling300 = main(n_epochs=10, n_train=4000, n_test=1000, model_name='gru_nopooling300',
-                     maxPooling=False)
+                        maxPooling=False)
 gru_nopooling20epochs = main(n_epochs=20, n_train=4000, n_test=1000, model_name='gru_nopooling20epochs', rnn_units=500,
-                     maxPooling=False)
+                             maxPooling=False)
 
-gru_nopooling_moredata = main(n_epochs=10, n_train=6000, n_test=1500, model_name='gru_nopooling_moredata', rnn_units=700,
-                     maxPooling=False)
+gru_nopooling_moredata = main(n_epochs=10, n_train=6000, n_test=1500, model_name='gru_nopooling_moredata',
+                              rnn_units=700,
+                              maxPooling=False)
 
-gru_nopooling_moredata2 = main(n_epochs=10, n_train=6000, n_test=1500, model_name='gru_nopooling_moredata2', rnn_units=1000,
-                     maxPooling=False)
+gru_nopooling_moredata2 = main(n_epochs=10, n_train=6000, n_test=1500, model_name='gru_nopooling_moredata2',
+                               rnn_units=1000,
+                               maxPooling=False)
 
 gru_nopooling_moredata3 = main(n_epochs=10, n_train=8000, n_test=1500, model_name='gru_nopooling_moredata3',
                                rnn_units=1000,

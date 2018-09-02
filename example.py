@@ -39,27 +39,41 @@ def examples2(my_model):
 
 # These are the three models that were saved on disk
 simple_gru = load_model('simple_gru')
-simple_gru50 = load_model('simple_gru50')
 gru = load_model('gru')
 lstm = load_model('lstm')
 lstm_nopooling300 = load_model('lstm_nopooling300')
-gru_nopooling300 = load_model('gru_nopooling300')
 lstm_nopooling = load_model('lstm_nopooling')
 gru_nopooling = load_model('gru_nopooling')
-gru_nopooling_moredata = load_model('gru_nopooling_moredata')  # best so far
 gru_nopooling_moredata2 = load_model('gru_nopooling_moredata2')  # best so far
 
+#look at prediction of different models on example queries
 examples(simple_gru)
-examples(simple_gru50)
 examples(gru)
 examples(lstm)
 examples(lstm_nopooling300)
-examples(gru_nopooling300)
 examples(lstm_nopooling)
 examples(gru_nopooling)
+
 examples2(gru_nopooling)
 
-examples(gru_nopooling_moredata2)
-examples2(gru_nopooling_moredata2)
-# to make a single prediction you just call
-# model_used_to_predict.evaluate(sentence_to_predict)
+best_model = gru_nopooling_moredata2
+examples(best_model)
+examples2(best_model)
+
+#look at summary of best_model
+best_model.summary
+#look at metrics of best model
+best_model.accuracy
+best_model.precision
+best_model.recall
+best_model.f1
+
+#look at parameters of best_model
+best_model.name
+best_model.rnn_units
+best_model.dropout_parameter
+
+#to make a single prediction you just call
+best_model.evaluate("it is so hot today")
+best_model.evaluate("it is so hot today in singapore")
+
