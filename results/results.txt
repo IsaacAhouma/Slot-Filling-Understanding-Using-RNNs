@@ -1,0 +1,20 @@
+{"sentence": "BOS list all flights departing from seattle EOS", "prediction": {"intent": "flight_booking_intent", "slots": [{"name": "origin", "value": "Missing Origin Value"}, {"name": "destination", "value": "Missing Destination Value"}]}}
+{"sentence": "BOS is it really raining in selm EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}
+{"sentence": "BOS i want to know the current weather in hollywood EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}
+{"sentence": "BOS is it supposed to be cold outside this afternoon in germantown EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}
+{"sentence": "BOS list limousine rates for the city of boston EOS", "prediction": {"intent": "flight_booking_intent", "slots": [{"name": "origin", "value": "Missing Origin Value"}, {"name": "destination", "value": "Missing Destination Value"}]}}
+{"sentence": "BOS how is the weather in littlehampton EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}
+{"sentence": "BOS do you know if it will snow in simpsonville tomorrow EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}
+{"sentence": "BOS how chilly is it usually in ocoee EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}
+{"sentence": "BOS show flights from burbank to milwaukee for today EOS", "prediction": {"intent": "flight_booking_intent", "slots": [{"name": "origin", "value": "Missing Origin Value"}, {"name": "destination", "value": "Missing Destination Value"}]}}
+{"sentence": "BOS list first class airfare round trip from indianapolis to memphis EOS", "prediction": {"intent": "flight_booking_intent", "slots": [{"name": "origin", "value": "Missing Origin Value"}, {"name": "destination", "value": "Missing Destination Value"}]}}
+{"sentence": "BOS can you tell me if it will rain this morning in prenzlau EOS", "prediction": {"intent": "flight_booking_intent", "slots": [{"name": "origin", "value": "Missing Origin Value"}, {"name": "destination", "value": "Missing Destination Value"}]}}
+{"sentence": "BOS dawukou weather forecast EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}
+{"sentence": "BOS what is the current temperature in pensacola EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}
+{"sentence": "BOS i want to know the current weather in castaic EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}
+{"sentence": "BOS what is the weather expected to be like in paragould next this evening EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}
+{"sentence": "BOS is it supposed to be cold outside this evening in northeim EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}
+{"sentence": "BOS it is often sunny in goshen right EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}
+{"sentence": "BOS it rains often in mechernich am i right EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}
+{"sentence": "BOS i want to know the current temperature in b\u00e9jar EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}
+{"sentence": "BOS gatineau weather EOS", "prediction": {"intent": "weather_intent", "slots": [{"name": "city", "value": "Missing City Value"}]}}

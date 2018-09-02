@@ -1,0 +1,2 @@
+{"sentence": "BOS list limousine rates for the city of boston EOS", "prediction": {"intent": "flight_booking_intent", "slots": [{"name": "origin", "value": "Missing Origin Value"}, {"name": "destination", "value": "Missing Destination Value"}]}}
+{"sentence": "BOS can you tell me if it will rain this morning in prenzlau EOS", "prediction": {"intent": "flight_booking_intent", "slots": [{"name": "origin", "value": "Missing Origin Value"}, {"name": "destination", "value": "Missing Destination Value"}]}}
